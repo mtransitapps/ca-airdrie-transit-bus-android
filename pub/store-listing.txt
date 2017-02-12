@@ -1,0 +1,48 @@
+Title: Airdrie Transit Bus - MonTran…
+----------
+Short description:
+Airdrie Transit Bus for MonTransit.
+Schedule. News.
+----------
+What's new in this version?:
+Schedule from January 1, 2016 to December 31, 2017.
+Tweets from @AirdrieTransit.
+----------
+Full description:
+This app adds Airdrie Transit buses information to MonTransit.
+
+This app provides the buses schedule as well as the latest news from @AirdrieTransit on Twitter.
+
+Airdrie Transit buses serve Airdrie & Calgary in Alberta, Canada.
+
+Once this application is installed, the MonTransit app will display buses information (schedule...).
+
+This application only has a temporary icon and no screen: download the MonTransit app (free) in the "More ..." section bellow or by following this Google Play link http://goo.gl/pCk5mV
+
+You can install this application on the SD card but it is not recommended.
+
+The information comes from the GTFS file provided by the Airdrie Transit on the Calgary Region Open Data website.
+http://www.calgaryregionopendata.ca/browse/file/10090
+
+This application is free and open-source:
+https://github.com/mtransitapps/ca-airdrie-transit-bus-android
+
+This app is not related with Airdrie Transit or Calgary Region.
+
+Permissions:
+- Other: required to news from Twitter
+----------
+Application type: Applications
+----------
+Category: Transportation
+----------
+Content rating: Low Maturity
+----------
+Website: https://github.com/mtransitapps/ca-airdrie-transit-bus-android
+----------
+Email: mtransit.apps+GooglePlay@gmail.com
+----------
+Phone:
+----------
+Privacy Policy:
+----------
