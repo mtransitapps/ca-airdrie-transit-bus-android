@@ -1,3 +1,3 @@
 #!/bin/bash
 DIRECTORY=$(basename ${PWD});
-../gradlew :$DIRECTORY:clean  :$DIRECTORY:assembleRelease :$DIRECTORY:copyReleaseApkToOutputDirs
+../gradlew -c ../settings.gradle.all :$DIRECTORY:clean  :$DIRECTORY:assembleRelease :$DIRECTORY:copyReleaseApkToOutputDirs
