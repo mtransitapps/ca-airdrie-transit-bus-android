@@ -24,6 +24,7 @@ android {
         versionCode versionProperties['version.code'] as Integer
         versionName versionProperties['version.name']
         setProperty("archivesBaseName", "${projectName}_v${versionName}_r${versionCode}")
+        resConfigs "en"
     }
 
     signingConfigs {
