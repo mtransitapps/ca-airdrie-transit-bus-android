@@ -8,7 +8,10 @@ android {
     compileSdkVersion rootProject.ext.compileSdkVersion
     buildToolsVersion rootProject.ext.buildToolsVersion
 
-    def projectName = "MT-CA-Airdrie-Transit-Bus";
+    Properties projectNameProperties = new Properties()
+    projectNameProperties.load(new FileInputStream(file("project_name.properties")))
+
+    def projectName = projectNameProperties["project.name"];
 
     Properties versionProperties = new Properties()
     versionProperties.load(new FileInputStream(file("version.properties")))
@@ -58,7 +61,7 @@ android {
     def publish = project.tasks.create("copyReleaseApkToOutputDirs")
     publish.description "Copies release APK to output directory"
     android.applicationVariants.all { variant ->
-        if (variant.buildType.name.equals("release")) {
+        if (variant.buildType.name == "release") {
             Properties customLocalProperties = new Properties()
             customLocalProperties.load(new FileInputStream(file("../custom_local.properties")))
             def outputDir = customLocalProperties['output.dir']
