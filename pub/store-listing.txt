@@ -1,4 +1,4 @@
-Title: Airdrie Transit Bus - MonTran…
+Title: Airdrie Transit Bus - MonTransit
 ----------
 Short description:
 Airdrie Transit Bus for MonTransit.
