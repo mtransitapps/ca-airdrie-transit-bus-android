@@ -5,7 +5,7 @@ Airdrie Transit Bus for MonTransit.
 Schedule. News.
 ----------
 What's new in this version?:
-Schedule from January 1, 2016 to December 31, 2019.
+Schedule from January 1, 2016 to December 31, 2020.
 Tweets from @AirdrieTransit.
 ----------
 Full description:
