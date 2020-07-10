@@ -1,15 +1,25 @@
-1016,'1016','Veterans Bv @ CPR Tracks',51.29988,-114.020124
+1010,'1010','Edmonton Trl @ Ctr Av',51.2917,-114.001518
+1029,'1029','East Lk Cr @ East Lk Bv (Ron Ebbesen Arena)',51.285747,-113.99732
+1031,'1031','Yankee Vly Bv @ Mkt St (Ricky''s)',51.270963,-113.992566
 1034,'1034','Main St @ Sierra Spgs Dr',51.264546,-114.005371
 1035,'1035','8 St @ Canoe Dr',51.290194,-114.025448
 1041,'1041','Main St @ Gateway Dr',51.301968,-114.013165
 1042,'1042','Gateway Lk @ Gateway Dr',51.305164,-114.012252
+1049,'1049','Main St @ Eldorado Rd',51.281174,-114.009393
 1052,'1052','Yankee Vly Bv @ Coopers Xing Ga',51.270691,-114.016264
+1060,'1060','East Lk Bv @ Big Hl Rd (Bert Church)',51.283128,-113.992632
+1062,'1062','East Lk Bv @ Big Spgs Dr (North)',51.279935,-113.989965
+1065,'1065','East Lk Bv @ Big Spgs Dr (No Frills)',51.27293,-113.989941
+1071,'1071','Chinook Winds Dr @ Chinook Winds Pl',51.269097,-114.029328
 1072,'1072','Yankee Vly Bv @ Luxstone Bv',51.270979,-114.017663
 1074,'1074','8 St @ Luxstone Ld',51.2783,-114.0254
+1077,'1077','Windsong Dr @ Windsong Bv',51.261192,-114.029422
+1078,'1078','Main St @ Summerfield Cl',51.272636,-114.009914
 1081,'1081','8 St @ Bayside Dr',51.273785,-114.025325
 1082,'1082','8 St @ Bayside Bv',51.286249,-114.025411
 1083,'1083','8 St @ Railway Ga',51.285776,-114.025017
 1086,'1086','8 St @ Luxstone Ld',51.2791,-114.025
+1097,'1097','Allen St @ Elston Pl',51.28399,-114.007854
 1103,'1103','Gateway Dr @ Superstore',51.301948,-114.011544
 1108,'1108','8 St @ Bayside Dr',51.273401,-114.024961
 1109,'1109','8 St @ Railway Av',51.290182,-114.025015
@@ -19,9 +29,15 @@
 1114,'1114','Main St @ Rona',51.26901,-114.008629
 1122,'1122','Main St @ Sierra Spgs Dr',51.263826,-114.004687
 1123,'1123','Main St @ Co-Op',51.268071,-114.007796
+1124,'1124','8 St @ Coopers Li',51.266919,-114.024861
 1131,'1131','8 St @ Woodside Wy',51.297663,-114.025406
+1180,'1180','Main St @ Nose Crk Pk',51.27808,-114.009998
+1181,'1181','East Lk Bv @ Big Spgs Wy',51.275519,-113.989947
 2412,'2412','104 Av @ Metis Tr',51.147322,-113.971218
+5580,'5580','1 St @ 8 Av SW (Calgary)',51.0459,-114.0656
 5718,'5718','36 St NE @ 25 Av NE (Rundle LRT Sta)',51.074533,-113.981991
 6592,'6592','36 St @ Whitehorn LRT',51.08657,-113.982103
 6777,'6777','36 St @ 26 Av NE (Peter Lougheed)',51.07703,-113.982002
+7293,'7293','4th Av @ 1st St SE (Calgary - Harry Hays Bldg)',51.0493,-114.0597
+8074,'8074','1 St @ 4 Av SW (Calgary)',51.0491,-114.0653
 9000,'9000','Bass Pro Wy @ CrossIron Mills (Entry 2)',51.2035,-113.9947
