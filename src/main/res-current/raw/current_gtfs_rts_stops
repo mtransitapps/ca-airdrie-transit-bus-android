@@ -1,17 +1,40 @@
+1000,'1000','East Lk Bv @ East Lk Rd',51.2898,-113.9928
+1001,'1001','East Lk Bv @ East Lk Av',51.296461,-113.989788
+1005,'1005','1 Av @ Woodside Ga',51.2928,-114.0306
+1006,'1006','1 Av @ Canals Bv',51.2927,-114.0333
 1010,'1010','Edmonton Trl @ Ctr Av',51.2917,-114.001518
+1014,'1014','Veterans Bv @ Woodside Bv',51.29974,-114.040062
+1015,'1015','Veterans Bv @ Woodside Dr',51.299881,-114.031913
+1016,'1016','Veterans Bv @ CPR Tracks',51.29988,-114.020124
+1020,'1020','Veterans Bv @ 8 St',51.300183,-114.026542
+1021,'1021','Veterans Bv @ Williamstown Bv',51.300356,-114.034179
+1025,'1025','East Lk Bv @ Meadowbrook Dr (Hi Ho)',51.275627,-113.989631
+1026,'1026','East Lk Bv @ Thorburn Dr',51.280943,-113.989689
 1029,'1029','East Lk Cr @ East Lk Bv (Ron Ebbesen Arena)',51.285747,-113.99732
+1030,'1030','1 Av @ Woodside Dr (Bethany)',51.2928,-114.0347
 1031,'1031','Yankee Vly Bv @ Mkt St (Ricky''s)',51.270963,-113.992566
+1032,'1032','Yankee Vly Bv @ Mkt St (Shoppers)',51.270641,-113.992959
 1034,'1034','Main St @ Sierra Spgs Dr',51.264546,-114.005371
 1035,'1035','8 St @ Canoe Dr',51.290194,-114.025448
 1041,'1041','Main St @ Gateway Dr',51.301968,-114.013165
 1042,'1042','Gateway Lk @ Gateway Dr',51.305164,-114.012252
 1049,'1049','Main St @ Eldorado Rd',51.281174,-114.009393
 1052,'1052','Yankee Vly Bv @ Coopers Xing Ga',51.270691,-114.016264
+1054,'1054','1 Av @ Fairways Dr',51.2928,-114.0439
+1056,'1056','1 Av @ Canoe Rd',51.2927,-114.0294
+1057,'1057','East Lk Bv @ East Lk Av',51.295855,-113.990057
+1058,'1058','East Lk Bv @ East Lk Cr (North)',51.293742,-113.990107
+1059,'1059','East Lk Bv @ East Lk Cr (Strip Mall)',51.285482,-113.996184
 1060,'1060','East Lk Bv @ Big Hl Rd (Bert Church)',51.283128,-113.992632
+1061,'1061','East Lk Bv @ East Lk Cr (The Edge)',51.286129,-113.995713
 1062,'1062','East Lk Bv @ Big Spgs Dr (North)',51.279935,-113.989965
 1065,'1065','East Lk Bv @ Big Spgs Dr (No Frills)',51.27293,-113.989941
+1066,'1066','East Lk Bv @ Meadowbrook Dr (South)',51.273858,-113.989652
+1067,'1067','Kingsview Bv @ Yankee Vly Bv',51.270119,-113.990108
+1070,'1070','Kings Hts Dr @ Kings Hts Bv',51.266285,-113.98434
 1071,'1071','Chinook Winds Dr @ Chinook Winds Pl',51.269097,-114.029328
 1072,'1072','Yankee Vly Bv @ Luxstone Bv',51.270979,-114.017663
+1073,'1073','Chinook Winds Dr @ Chinook Winds Pk',51.264,-114.0324
 1074,'1074','8 St @ Luxstone Ld',51.2783,-114.0254
 1077,'1077','Windsong Dr @ Windsong Bv',51.261192,-114.029422
 1078,'1078','Main St @ Summerfield Cl',51.272636,-114.009914
@@ -19,8 +42,12 @@
 1082,'1082','8 St @ Bayside Bv',51.286249,-114.025411
 1083,'1083','8 St @ Railway Ga',51.285776,-114.025017
 1086,'1086','8 St @ Luxstone Ld',51.2791,-114.025
+1087,'1087','Kings Hts Ga @ Kings Hts Dr',51.26758,-113.981536
+1089,'1089','Kings Hts Bv @ Kingsland Cl',51.267356,-113.988603
 1097,'1097','Allen St @ Elston Pl',51.28399,-114.007854
 1103,'1103','Gateway Dr @ Superstore',51.301948,-114.011544
+1104,'1104','Genesis Pl',51.284515,-113.993381
+1107,'1107','East Lk Bv @ East Lk Ri',51.289358,-113.993854
 1108,'1108','8 St @ Bayside Dr',51.273401,-114.024961
 1109,'1109','8 St @ Railway Av',51.290182,-114.025015
 1110,'1110','8 St @ Willowbrook Rd',51.298459,-114.024928
@@ -30,6 +57,11 @@
 1122,'1122','Main St @ Sierra Spgs Dr',51.263826,-114.004687
 1123,'1123','Main St @ Co-Op',51.268071,-114.007796
 1124,'1124','8 St @ Coopers Li',51.266919,-114.024861
+1125,'1125','1 Av @ Sagewood Bv',51.292707,-114.041959
+1127,'1127','Veterans Bv @ East Lk Rp',51.29982,-113.994252
+1128,'1128','Veterans Bv @ Highland Pk Bv',51.300156,-113.994495
+1129,'1129','24 St @ Fairways Ci',51.297844,-114.048408
+1130,'1130','8 St @ Coopers Dr SW',51.260949,-114.024835
 1131,'1131','8 St @ Woodside Wy',51.297663,-114.025406
 1180,'1180','Main St @ Nose Crk Pk',51.27808,-114.009998
 1181,'1181','East Lk Bv @ Big Spgs Wy',51.275519,-113.989947
