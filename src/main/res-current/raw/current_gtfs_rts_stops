@@ -9,7 +9,6 @@
 1021,'1021','WB Veterans Bv @ Williamstown Bv',51.300356,-114.034179
 1025,'1025','NB East Lk Bv @ Meadowbrook Dr (Hi Ho)',51.275627,-113.989631
 1026,'1026','NB East Lk Bv @ Thorburn Dr',51.280943,-113.989689
-1029,'1029','EB East Lk Cr @ East Lk Bv (Ron Ebbesen Arena)',51.285747,-113.99732
 1030,'1030','WB 1 Av @ Woodside Dr (Bethany)',51.2928,-114.0347
 1031,'1031','WB Yankee Vly Bv @ Mkt St (Ricky''s)',51.270963,-113.992566
 1032,'1032','EB Yankee Vly Bv @ Mkt St (Shoppers)',51.270641,-113.992959
@@ -44,6 +43,8 @@
 1072,'1072','WB Yankee Vly Bv @ Luxstone Bv',51.270979,-114.017663
 1073,'1073','SB Chinook Winds Dr @ Chinook Winds Pk',51.264,-114.0324
 1074,'1074','SB 8 St @ Luxstone Ld',51.2783,-114.0254
+1075,'1075','SB 8 St @ Woodside Wy',51.299294,-114.025391
+1076,'1076','SB 8 St @ Woodside Lk',51.295382,-114.02546
 1077,'1077','EB Windsong Dr @ Windsong Bv',51.261192,-114.029422
 1078,'1078','NB Main St @ Summerfield Cl',51.272636,-114.009914
 1081,'1081','SB 8 St @ Bayside Dr',51.273785,-114.025325
@@ -64,7 +65,7 @@
 1111,'1111','NB 8 St @ 1 Ave',51.2934,-114.025
 1112,'1112','SB Main St @ 4th Av',51.295111,-114.013611
 1113,'1113','South Transit Terminal',51.257284,-114.006259
-1114,'1114','SB Main St @ Rona',51.26901,-114.008629
+1114,'1114','SB Main St @ Co-Op',51.26901,-114.008629
 1122,'1122','SB Main St @ Sierra Spgs Dr',51.263826,-114.004687
 1123,'1123','NB Main St @ Co-Op',51.268071,-114.007796
 1124,'1124','NB 8 St @ Coopers Li',51.266919,-114.024861
@@ -73,7 +74,7 @@
 1128,'1128','WB Veterans Bv @ Highland Pk Bv',51.300156,-113.994495
 1129,'1129','NB 24 St @ Fairways Ci',51.297844,-114.048408
 1130,'1130','NB 8 St @ Coopers Dr SW',51.260949,-114.024835
-1131,'1131','SB 8 St @ Woodside Wy',51.297663,-114.025406
+1180,'1180','EB Main St @ Nose Crk Pk',51.27808,-114.009998
 1181,'1181','SB East Lk Bv @ Big Spgs Wy',51.275519,-113.989947
 2412,'2412','WB 104 Av @ Metis Tr',51.147322,-113.971218
 5580,'5580','SB 1 St @ 8 Av SW (Calgary)',51.0459,-114.0656

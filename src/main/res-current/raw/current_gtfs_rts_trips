@@ -4,11 +4,7 @@
 301,0,'South Term',3
 90001,0,'Gateway Dr @ Superstore',900
 90000,0,'Rundle LRT Sta',900
-1090100,0,'Calgary',10901
-1090101,0,'Ron Ebbesen Arena',10901
-1090200,0,'Calgary',10902
-1090201,0,'Gateway Lk @ Gateway Dr',10902
-2090100,0,'Calgary',20901
-2090101,0,'South Term',20901
-2090200,0,'Calgary',20902
-2090201,0,'South Term',20902
+1090000,0,'Calgary',10900
+1090001,0,'Gateway Lk @ Gateway Dr',10900
+2090000,0,'Calgary',20900
+2090001,0,'South Term',20900
