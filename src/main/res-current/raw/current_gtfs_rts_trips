@@ -1,10 +1,10 @@
-100,0,'Gateway Dr @ Superstore',1
-101,0,'South Term',1
-300,0,'Gateway Dr @ Superstore',3
-301,0,'South Term',3
-90001,0,'Gateway Dr @ Superstore',900
-90000,0,'Rundle LRT Sta',900
-1090000,0,'Calgary',10900
-1090001,0,'Gateway Lk @ Gateway Dr',10900
-2090000,0,'Calgary',20900
-2090001,0,'South Term',20900
+101,0,'Inbound',1
+100,0,'Outbound',1
+301,0,'Inbound',3
+300,0,'Outbound',3
+90001,0,'Inbound',900
+90000,0,'Outbound',900
+1090001,0,'Inbound',10900
+1090000,0,'Outbound',10900
+2090001,0,'Inbound',20900
+2090000,0,'Outbound',20900
