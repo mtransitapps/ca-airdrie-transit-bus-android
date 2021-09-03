@@ -9,8 +9,9 @@
 1021,'1021','WB Veterans Bv @ Williamstown Bv',51.300356,-114.034179
 1025,'1025','NB East Lk Bv @ Meadowbrook Dr (Hi Ho)',51.275627,-113.989631
 1026,'1026','NB East Lk Bv @ Thorburn Dr',51.280943,-113.989689
+1029,'1029','EB East Lk Cr @ East Lk Bv',51.285747,-113.99732
 1030,'1030','WB 1 Av @ Woodside Dr (Bethany)',51.2928,-114.0347
-1031,'1031','WB Yankee Vly Bv @ Mkt St (Ricky''s)',51.270963,-113.992566
+1031,'1031','WB Yankee Vly Bv @ Mkt St',51.270963,-113.992566
 1032,'1032','EB Yankee Vly Bv @ Mkt St (Shoppers)',51.270641,-113.992959
 1034,'1034','NB Main St @ Sierra Spgs Dr',51.264546,-114.005371
 1035,'1035','SB 8 St @ Canoe Dr',51.290194,-114.025448
@@ -20,7 +21,7 @@
 1040,'1040','NB Main St @ Flett Dr',51.298792,-114.013251
 1041,'1041','NB Main St @ Gateway Dr',51.301968,-114.013165
 1042,'1042','EB Gateway Lk @ Gateway Dr',51.305164,-114.012252
-1045,'1045','SB Main St @ Ctr Av (Shell)',51.291121,-114.013567
+1045,'1045','SB Main St @ Ctr Av',51.291121,-114.013567
 1046,'1046','NB Main St @ City Hall',51.287731,-114.013272
 1047,'1047','SB Main St @ Safeway',51.287747,-114.013581
 1049,'1049','NB Main St @ Eldorado Rd',51.281174,-114.009393
@@ -31,11 +32,11 @@
 1056,'1056','EB 1 Av @ Canoe Rd',51.2927,-114.0294
 1057,'1057','SB East Lk Bv @ East Lk Av',51.295855,-113.990057
 1058,'1058','SB East Lk Bv @ East Lk Cr (North)',51.293742,-113.990107
-1059,'1059','SB East Lk Bv @ East Lk Cr (Strip Mall)',51.285482,-113.996184
-1060,'1060','SB East Lk Bv @ Big Hl Rd (Bert Church)',51.283128,-113.992632
+1059,'1059','SB East Lk Bv @ East Lk Cr',51.285482,-113.996184
+1060,'1060','SB East Lk Bv @ Big Hl Rd',51.283128,-113.992632
 1061,'1061','NB East Lk Bv @ East Lk Cr (The Edge)',51.286129,-113.995713
 1062,'1062','SB East Lk Bv @ Big Spgs Dr (North)',51.279935,-113.989965
-1065,'1065','SB East Lk Bv @ Big Spgs Dr (No Frills)',51.27293,-113.989941
+1065,'1065','SB East Lk Bv @ Big Spgs Dr (South)',51.27293,-113.989941
 1066,'1066','NB East Lk Bv @ Meadowbrook Dr (South)',51.273858,-113.989652
 1067,'1067','SB Kingsview Bv @ Yankee Vly Bv',51.270119,-113.990108
 1070,'1070','NB Kings Hts Dr @ Kings Hts Bv',51.266285,-113.98434
@@ -53,9 +54,9 @@
 1089,'1089','EB Kings Hts Bv @ Kingsland Cl',51.267356,-113.988603
 1099,'1099','SB Main St @ Ridgegate Wy',51.284621,-114.013477
 1100,'1100','NB Main St @ Elk Hl',51.2858,-114.013289
-1101,'1101','SB Main St @ 1 Av (Air-Alta)',51.293213,-114.013604
+1101,'1101','SB Main St @ 1 Av',51.293213,-114.013604
 1103,'1103','WB Gateway Dr @ Superstore',51.301948,-114.011544
-1104,'1104','Genesis Pl',51.284515,-113.993381
+1104,'1104','Genesis Pl',51.283597,-113.993298
 1107,'1107','SB East Lk Bv @ East Lk Ri',51.289358,-113.993854
 1108,'1108','NB 8 St @ Bayside Dr',51.273401,-114.024961
 1109,'1109','NB 8 St @ Railway Av',51.290182,-114.025015
@@ -76,9 +77,9 @@
 1181,'1181','SB East Lk Bv @ Big Spgs Wy',51.275519,-113.989947
 2412,'2412','WB 104 Av @ Metis Tr',51.147322,-113.971218
 5580,'5580','SB 1 St @ 8 Av SW (Calgary)',51.0459,-114.0656
-5718,'5718','SB 36 St NE @ 25 Av NE (Rundle LRT Sta)',51.074533,-113.981991
+5718,'5718','SB 36 St @ Rundle LRT Sta',51.074533,-113.981991
 6592,'6592','SB 36 St @ Whitehorn LRT',51.08657,-113.982103
-6777,'6777','SB 36 St @ 26 Av NE (Peter Lougheed)',51.07703,-113.982002
+6777,'6777','SB 36 St @ 26 Av NE',51.07703,-113.982002
 7293,'7293','WB 4th Av @ 1st St SE (Calgary - Harry Hays Bldg)',51.0493,-114.0597
 8074,'8074','SB 1 St @ 4 Av SW (Calgary)',51.0491,-114.0653
 9000,'9000','NB Bass Pro Wy @ CrossIron Mills (Entry 2)',51.2035,-113.9947
