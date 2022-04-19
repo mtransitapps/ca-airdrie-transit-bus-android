@@ -4,5 +4,4 @@
 '9',300,73300,0,'Outbound',10000,0,'Outbound',10000,0,'Outbound',10000,0,'Outbound',10000,0,'Outbound',10000,0,'Outbound',10000,0,'Outbound',10000,0,'Outbound',10000,0,'Outbound',10000,0,'Outbound',10000,0,'Outbound',10000,0,'Outbound',10000,0,'Outbound',10000,0,'Outbound'
 '4',90001,85300,0,'Inbound',10000,0,'Inbound',10000,0,'Inbound',10000,0,'Inbound',10000,0,'Inbound',10000,0,'Inbound',10000,0,'Inbound',10000,0,'Inbound',10000,0,'Inbound',10000,0,'Inbound',10000,0,'Inbound',10000,0,'Inbound',10000,0,'Inbound',10000,0,'Inbound',10000,0,'Inbound'
 '5',90001,95300,0,'Inbound',10000,0,'Inbound',10000,0,'Inbound',10000,0,'Inbound',10000,0,'Inbound',10000,0,'Inbound',10000,0,'Inbound',10000,0,'Inbound',10000,0,'Inbound',10000,0,'Inbound',10000,0,'Inbound',10000,0,'Inbound'
-'1',1090201,82800,0,'Inbound'
-'1',2090201,171100,0,'Inbound'
+'1',2090201,171100,0,'Inbound',9500,0,'Inbound'
