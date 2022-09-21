@@ -1,2 +1,1 @@
-Airdrie Transit Bus for MonTransit.
-Schedule. News.
+Airdrie Transit Bus for MonTransit. Schedule. News.
