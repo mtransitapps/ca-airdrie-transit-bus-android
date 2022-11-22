@@ -2,8 +2,8 @@
 101,0,'South TT',1
 300,0,'Gateway Dr @ Superstore',3
 301,0,'South TT',3
-90000,0,'36 St @ Rundle LRT Sta',900
 90001,0,'Gateway Lk @ Gateway Dr',900
+90000,0,'South TT',900
 1090100,0,'Calgary',10901
 1090101,0,'East Lk Cr @ East Lk Bv',10901
 1090200,0,'Calgary',10902
