@@ -11,7 +11,7 @@
 '5',90000,83000,0,'Outbound',10000,0,'Outbound',10000,0,'Outbound',10000,0,'Outbound',10000,0,'Outbound',10000,0,'Outbound',10000,0,'Outbound',10000,0,'Outbound',10000,0,'Outbound',10000,0,'Outbound',10000,0,'Outbound',10000,0,'Outbound'
 '5',90001,95000,0,'Inbound',10000,0,'Inbound',10000,0,'Inbound',10000,0,'Inbound',10000,0,'Inbound',10000,0,'Inbound',10000,0,'Inbound',10000,0,'Inbound',10000,0,'Inbound',10000,0,'Inbound',10000,0,'Inbound',10000,0,'Inbound'
 '1',1090100,61000,0,'Outbound'
-'1',1090200,71000,0,'Outbound',4200,0,'Outbound'
+'1',1090200,64000,0,'Outbound',7000,0,'Outbound',4200,0,'Outbound'
 '1',1090201,82500,4,'',8000,4,''
 '1',2090100,150000,0,'Outbound'
 '1',2090101,161500,4,''
