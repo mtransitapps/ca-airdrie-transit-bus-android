@@ -6,5 +6,5 @@
 '12',90000,81500,0,'Outbound',10000,0,'Outbound',10000,0,'Outbound',10000,0,'Outbound',10000,0,'Outbound',10000,0,'Outbound',10000,0,'Outbound',10000,0,'Outbound',10000,0,'Outbound',10000,0,'Outbound',10000,0,'Outbound',10000,0,'Outbound'
 '4',90000,71500,0,'Outbound',10000,0,'Outbound',10000,0,'Outbound',10000,0,'Outbound',10000,0,'Outbound',10000,0,'Outbound',10000,0,'Outbound',10000,0,'Outbound',10000,0,'Outbound',10000,0,'Outbound',10000,0,'Outbound',10000,0,'Outbound',10000,0,'Outbound',10000,0,'Outbound',10000,0,'Outbound'
 '5',90000,81500,0,'Outbound',10000,0,'Outbound',10000,0,'Outbound',10000,0,'Outbound',10000,0,'Outbound',10000,0,'Outbound',10000,0,'Outbound',10000,0,'Outbound',10000,0,'Outbound',10000,0,'Outbound',10000,0,'Outbound',10000,0,'Outbound'
-'1',1090200,62000,0,'Outbound',3000,0,'Outbound',8000,0,'Outbound'
-'1',2090201,173400,0,'Inbound',9400,0,'Inbound'
+'1',1090200,62100,0,'Outbound',3000,0,'Outbound',8200,0,'Outbound'
+'1',2090201,173400,0,'Inbound',7000,0,'Inbound',3500,0,'Inbound'
