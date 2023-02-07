@@ -1,2 +1,2 @@
-'1',101,71500,0,'Inbound',10000,0,'Inbound',10000,0,'Inbound',10000,0,'Inbound',10000,0,'Inbound',10000,0,'Inbound',10000,0,'Inbound',10000,0,'Inbound',10000,0,'Inbound',10000,0,'Inbound',10000,0,'Inbound'
-'1',300,71000,0,'Outbound',10000,0,'Outbound',10000,0,'Outbound',60000,0,'Outbound',10000,0,'Outbound',10000,0,'Outbound'
+'1',101,71500,0,'Inbound',0,10000,0,'Inbound',0,10000,0,'Inbound',0,10000,0,'Inbound',0,10000,0,'Inbound',0,10000,0,'Inbound',0,10000,0,'Inbound',0,10000,0,'Inbound',0,10000,0,'Inbound',0,10000,0,'Inbound',0,10000,0,'Inbound',0
+'1',300,71000,0,'Outbound',0,10000,0,'Outbound',0,10000,0,'Outbound',0,60000,0,'Outbound',0,10000,0,'Outbound',0,10000,0,'Outbound',0
