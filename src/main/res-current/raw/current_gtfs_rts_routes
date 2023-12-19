@@ -1,7 +1,7 @@
-1,'1','Local Route 1','3CA555'
-3,'3','Local Route 3','146EFF'
-900,'900','ICE Route 900','FFD600'
-10901,'901AM','901 Calgary Downtown ICE Service Morning','B52A2A'
-10902,'902AM','902 Calgary Downtown ICE Service Morning','58646D'
-20901,'901PM','901 Calgary Downtown ICE Service Afternoon','B52A2A'
-20902,'902PM','902 Calgary Downtown ICE Service Afternoon','58646D'
+1,'1','Local Route 1','3CA555',49,3
+3,'3','Local Route 3','146EFF',50,3
+900,'900','ICE Route 900','FFD600',51,3
+10901,'901AM','901 Calgary Downtown ICE Service Morning','B52A2A',52,3
+10902,'902AM','902 Calgary Downtown ICE Service Morning','58646D',54,3
+20901,'901PM','901 Calgary Downtown ICE Service Afternoon','B52A2A',53,3
+20902,'902PM','902 Calgary Downtown ICE Service Afternoon','58646D',55,3
