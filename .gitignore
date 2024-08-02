@@ -107,6 +107,8 @@ fabric.properties
 .idea/deploymentTargetDropDown.xml
 # Project migrations
 .idea/migrations.xml
+# others
+.idea/other.xml
 
 # Keystore files
 # Uncomment the following line if you do not want to check your keystore files in.
@@ -182,3 +184,6 @@ dev.properties
 /set_app_release_required.sh
 /settings.gradle
 /test.sh
+
+# Kotlin 2.0
+/.kotlin/
