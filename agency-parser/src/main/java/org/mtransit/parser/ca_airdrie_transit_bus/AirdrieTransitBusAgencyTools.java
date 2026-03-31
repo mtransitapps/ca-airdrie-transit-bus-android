@@ -3,6 +3,7 @@ package org.mtransit.parser.ca_airdrie_transit_bus;
 import static org.mtransit.commons.Constants.EMPTY;
 
 import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
 import org.mtransit.commons.CharUtils;
 import org.mtransit.commons.CleanUtils;
 import org.mtransit.commons.StringUtils;
@@ -18,16 +19,10 @@ import java.util.regex.Pattern;
 
 // https://data-airdrie.opendata.arcgis.com/datasets/airdrie-transit-bus-routes/about
 // https://www.airdrie.ca/gettransitgtfs.cfm
-// TODO real-time https://airdrietransit.transloc.com/
 public class AirdrieTransitBusAgencyTools extends DefaultAgencyTools {
 
 	public static void main(@NotNull String[] args) {
 		new AirdrieTransitBusAgencyTools().start(args);
-	}
-
-	@Override
-	public boolean defaultExcludeEnabled() {
-		return true;
 	}
 
 	@NotNull
@@ -95,8 +90,8 @@ public class AirdrieTransitBusAgencyTools extends DefaultAgencyTools {
 		return true;
 	}
 
-	private static final String AGENCY_COLOR_BLUE = "0099CC"; // BLUE (from web site CSS)
-	// private static final String AGENCY_COLOR_BLUE_DARK = "003399"; // BLUE DARK (from web site CSS)
+	private static final String AGENCY_COLOR_BLUE = "0099CC"; // BLUE (from website CSS)
+	// private static final String AGENCY_COLOR_BLUE_DARK = "003399"; // BLUE DARK (from website CSS)
 
 	private static final String AGENCY_COLOR = AGENCY_COLOR_BLUE;
 
@@ -118,10 +113,9 @@ public class AirdrieTransitBusAgencyTools extends DefaultAgencyTools {
 
 	private static final Pattern ENDS_WITH_DASH_ = Pattern.compile("( - .*$)*", Pattern.CASE_INSENSITIVE);
 
-	@NotNull
 	@Override
-	public String cleanDirectionHeadsign(int directionId, boolean fromStopName, @NotNull String directionHeadSign) {
-		directionHeadSign = super.cleanDirectionHeadsign(directionId, fromStopName, directionHeadSign);
+	public @NotNull String cleanDirectionHeadsign(@Nullable GRoute gRoute, int directionId, boolean fromStopName, @NotNull String directionHeadSign) {
+		directionHeadSign = super.cleanDirectionHeadsign(gRoute, directionId, fromStopName, directionHeadSign);
 		// ignore default trips head-signs
 		directionHeadSign = INBOUND_OUTBOUND_.matcher(directionHeadSign).replaceAll(EMPTY);
 		// clean stop name
@@ -145,7 +139,7 @@ public class AirdrieTransitBusAgencyTools extends DefaultAgencyTools {
 		tripHeadsign = CleanUtils.cleanSlashes(tripHeadsign);
 		tripHeadsign = CleanUtils.cleanNumbers(tripHeadsign);
 		tripHeadsign = CleanUtils.cleanStreetTypes(tripHeadsign);
-		return CleanUtils.cleanLabel(tripHeadsign);
+		return CleanUtils.cleanLabel(getFirstLanguageNN(), tripHeadsign);
 	}
 
 	@NotNull
@@ -155,7 +149,7 @@ public class AirdrieTransitBusAgencyTools extends DefaultAgencyTools {
 		gStopName = CleanUtils.CLEAN_AT.matcher(gStopName).replaceAll(CleanUtils.CLEAN_AT_REPLACEMENT);
 		gStopName = CleanUtils.cleanSlashes(gStopName);
 		gStopName = CleanUtils.cleanStreetTypes(gStopName);
-		return CleanUtils.cleanLabel(gStopName);
+		return CleanUtils.cleanLabel(getFirstLanguageNN(), gStopName);
 	}
 
 	@Override
