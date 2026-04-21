@@ -1,4 +1,60 @@
 {
+  "default_route_id_enabled": true,
+  "use_route_short_name_for_route_id": true,
+  "route_id_next_char_configs": [
+    {
+      "char": "am",
+      "id_part": 10000
+    },
+    {
+      "char": "pm",
+      "id_part": 20000
+    },
+    {
+      "char": "AM",
+      "id_part": 10000
+    },
+    {
+      "char": "PM",
+      "id_part": 20000
+    }
+  ],
+  "route_to_short_name_configs": [
+    {
+      "route_long_name": "Downtown Ice Service Morning",
+      "route_short_name": "D ICE AM"
+    },
+    {
+      "route_long_name": "Downtown Ice Service Afternoon",
+      "route_short_name": "D ICE PM"
+    }
+  ],
   "direction_finder_enabled": true,
+  "direction_headsign_cleaners": [
+    {
+      "regex": "inbound|outbound",
+      "ignore_case": true,
+      "is_word": true
+    },
+    {
+      "regex": "^(eb|nb|sb|wb) ",
+      "ignore_case": true
+    },
+    {
+      "regex": "transit terminal",
+      "ignore_case": true,
+      "is_word": true,
+      "replacement": "Term"
+    },
+    {
+      "regex": "([^(]+)\\(([^)]+)\\)",
+      "ignore_case": true,
+      "replacement": "$2"
+    },
+    {
+      "regex": " - .*$",
+      "ignore_case": true
+    }
+  ],
   "use_stop_code_for_stop_id": true
 }
