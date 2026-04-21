@@ -57,7 +57,7 @@
       "replacement": "$3"
     },
     {
-      "regex": "( - .*$)",
+      "regex": "( - .*$)*",
       "ignore_case": true
     }
   ],
