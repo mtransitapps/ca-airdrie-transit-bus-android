@@ -32,7 +32,12 @@
   "direction_finder_enabled": true,
   "direction_headsign_cleaners": [
     {
-      "regex": "inbound|outbound",
+      "regex": "inbound",
+      "ignore_case": true,
+      "is_word": true
+    },
+    {
+      "regex": "outbound",
       "ignore_case": true,
       "is_word": true
     },
@@ -49,10 +54,10 @@
     {
       "regex": "([^(]+)\\(([^)]+)\\)",
       "ignore_case": true,
-      "replacement": "$2"
+      "replacement": "$3"
     },
     {
-      "regex": " - .*$",
+      "regex": "( - .*$)*",
       "ignore_case": true
     }
   ],
