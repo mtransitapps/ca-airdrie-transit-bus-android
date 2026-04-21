@@ -6,12 +6,9 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 import org.mtransit.commons.CharUtils;
 import org.mtransit.commons.CleanUtils;
-import org.mtransit.commons.StringUtils;
 import org.mtransit.parser.DefaultAgencyTools;
 import org.mtransit.parser.MTLog;
 import org.mtransit.parser.gtfs.data.GRoute;
-import org.mtransit.parser.gtfs.data.GStop;
-import org.mtransit.parser.mt.data.MAgency;
 
 import java.util.Locale;
 import java.util.regex.Matcher;
@@ -29,12 +26,6 @@ public class AirdrieTransitBusAgencyTools extends DefaultAgencyTools {
 	@Override
 	public String getAgencyName() {
 		return "Airdrie Transit";
-	}
-
-	@NotNull
-	@Override
-	public Integer getAgencyRouteType() {
-		return MAgency.ROUTE_TYPE_BUS;
 	}
 
 	private static final Pattern DIGITS = Pattern.compile("\\d+");
@@ -85,22 +76,6 @@ public class AirdrieTransitBusAgencyTools extends DefaultAgencyTools {
 		return super.getRouteShortName(gRoute);
 	}
 
-	@Override
-	public boolean defaultAgencyColorEnabled() {
-		return true;
-	}
-
-	private static final String AGENCY_COLOR_BLUE = "0099CC"; // BLUE (from website CSS)
-	// private static final String AGENCY_COLOR_BLUE_DARK = "003399"; // BLUE DARK (from website CSS)
-
-	private static final String AGENCY_COLOR = AGENCY_COLOR_BLUE;
-
-	@NotNull
-	@Override
-	public String getAgencyColor() {
-		return AGENCY_COLOR;
-	}
-
 	private static final Pattern INBOUND_OUTBOUND_ = CleanUtils.cleanWords("inbound", "outbound");
 
 	private static final Pattern TRANSIT_TERMINAL_ = CleanUtils.cleanWords("transit terminal");
@@ -128,11 +103,6 @@ public class AirdrieTransitBusAgencyTools extends DefaultAgencyTools {
 		return directionHeadSign;
 	}
 
-	@Override
-	public boolean directionFinderEnabled() {
-		return true;
-	}
-
 	@NotNull
 	@Override
 	public String cleanTripHeadsign(@NotNull String tripHeadsign) {
@@ -152,12 +122,4 @@ public class AirdrieTransitBusAgencyTools extends DefaultAgencyTools {
 		return CleanUtils.cleanLabel(getFirstLanguageNN(), gStopName);
 	}
 
-	@Override
-	public int getStopId(@NotNull GStop gStop) {
-		if (!StringUtils.isEmpty(gStop.getStopCode())
-				&& CharUtils.isDigitsOnly(gStop.getStopCode())) {
-			return Integer.parseInt(gStop.getStopCode()); // use stop code as stop ID
-		}
-		throw new MTLog.Fatal("Unexpected stop ID for %s!", gStop);
-	}
 }
