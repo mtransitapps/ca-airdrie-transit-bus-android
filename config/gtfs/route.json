@@ -52,12 +52,12 @@
       "replacement": "Term"
     },
     {
-      "regex": "([^(]+)\\(([^)]+)\\)",
+      "regex": "(([^(]+)\\(([^)]+)\\))",
       "ignore_case": true,
       "replacement": "$3"
     },
     {
-      "regex": "( - .*$)*",
+      "regex": "( - .*$)",
       "ignore_case": true
     }
   ],
