@@ -1,0 +1,98 @@
+{
+  "default_route_id_enabled": true,
+  "use_route_short_name_for_route_id": true,
+  "route_id_next_char_configs": [
+    {
+      "char": "am",
+      "id_part": 10000
+    },
+    {
+      "char": "pm",
+      "id_part": 20000
+    },
+    {
+      "char": "AM",
+      "id_part": 10000
+    },
+    {
+      "char": "PM",
+      "id_part": 20000
+    }
+  ],
+  "route_to_short_name_configs": [
+    {
+      "route_long_name": "Downtown Ice Service Morning",
+      "route_short_name": "D ICE AM"
+    },
+    {
+      "route_long_name": "Downtown Ice Service Afternoon",
+      "route_short_name": "D ICE PM"
+    }
+  ],
+  "direction_finder_enabled": true,
+  "direction_headsign_cleaners": [
+    {
+      "regex": "inbound",
+      "ignore_case": true,
+      "is_word": true
+    },
+    {
+      "regex": "outbound",
+      "ignore_case": true,
+      "is_word": true
+    },
+    {
+      "regex": "^(eb|nb|sb|wb) ",
+      "ignore_case": true
+    },
+    {
+      "regex": "transit terminal",
+      "ignore_case": true,
+      "is_word": true,
+      "replacement": "Term"
+    },
+    {
+      "regex": "(([^(]+)\\(([^)]+)\\))",
+      "ignore_case": true,
+      "replacement": "$3"
+    },
+    {
+      "regex": "( - .*$)*",
+      "ignore_case": true
+    }
+  ],
+  "use_stop_code_for_stop_id": true,
+  "stop_name_cleaners": [
+    {
+      "regex": "(\\s*)\\(Entry ([\\d]+)\\)",
+      "ignore_case": true,
+      "replacement": "$1E:$2"
+    },
+    {
+      "regex": "(\\s*)\\(north\\)$",
+      "ignore_case": true,
+      "replacement": "$1(N)"
+    },
+    {
+      "regex": "(\\s*)\\(south\\)$",
+      "ignore_case": true,
+      "replacement": "$1(S)"
+    },
+    {
+      "regex": "(\\s*)\\(east\\)$",
+      "ignore_case": true,
+      "replacement": "$1(E)"
+    },
+    {
+      "regex": "(\\s*)\\(west\\)$",
+      "ignore_case": true,
+      "replacement": "$1(W)"
+    },
+    {
+      "regex": "south transit terminal",
+      "ignore_case": true,
+      "is_word": true,
+      "replacement": "South TT"
+    }
+  ]
+}
