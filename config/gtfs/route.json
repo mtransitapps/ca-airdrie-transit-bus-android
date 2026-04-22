@@ -61,5 +61,38 @@
       "ignore_case": true
     }
   ],
-  "use_stop_code_for_stop_id": true
+  "use_stop_code_for_stop_id": true,
+  "stop_name_cleaners": [
+    {
+      "regex": "(\\s*)\\(Entry ([\\d]+)\\)",
+      "ignore_case": true,
+      "replacement": "$1E:$2"
+    },
+    {
+      "regex": "(\\s*)\\(north\\)$",
+      "ignore_case": true,
+      "replacement": "$1(N)"
+    },
+    {
+      "regex": "(\\s*)\\(south\\)$",
+      "ignore_case": true,
+      "replacement": "$1(S)"
+    },
+    {
+      "regex": "(\\s*)\\(east\\)$",
+      "ignore_case": true,
+      "replacement": "$1(E)"
+    },
+    {
+      "regex": "(\\s*)\\(west\\)$",
+      "ignore_case": true,
+      "replacement": "$1(W)"
+    },
+    {
+      "regex": "south transit terminal",
+      "ignore_case": true,
+      "is_word": true,
+      "replacement": "South TT"
+    }
+  ]
 }

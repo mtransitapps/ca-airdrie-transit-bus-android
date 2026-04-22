@@ -1,7 +1,7 @@
 100,0,'Gateway Dr @ Superstore',1
-101,0,'S TT',1
+101,0,'South TT',1
 300,0,'Gateway Dr @ Superstore',3
-301,0,'S TT',3
+301,0,'South TT',3
 90000,0,'36 St @ Rundle LRT Sta',900
 90001,0,'Gateway Lk @ Gateway Dr',900
 1090100,0,'Calgary',10901
@@ -9,6 +9,6 @@
 1090200,0,'Calgary',10902
 1090201,0,'Gateway Dr @ Superstore',10902
 2090100,0,'Calgary',20901
-2090101,0,'S TT',20901
+2090101,0,'South TT',20901
 2090200,0,'Calgary',20902
 2090201,0,'Main St @ Summerfield Cl',20902
