@@ -110,7 +110,8 @@ jobs:
         id: mt-setup
         uses: mtransitapps/gh-actions/.github/actions/setup@v1.2.1
         with:
-          code-sync: ${{ github.ref == format('refs/heads/{0}', env.MT_DEFAULT_BRANCH_NAME) }}
+          code-sync: true # DEBUG
+          # code-sync: ${{ github.ref == format('refs/heads/{0}', env.MT_DEFAULT_BRANCH_NAME) }}
 
       - name: MT commit image change (if added/updated)
         if: ${{ env.MT_IS_MAIN_REPO != 'true' }}
